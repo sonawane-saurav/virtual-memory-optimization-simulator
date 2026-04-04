@@ -5,7 +5,7 @@ def fifo(pages, frames):
     history = []                                # stores memory state step-by-step
 
     for page in pages:
-        if page not in memory:                  # page fault
+        if page not in memory:                  # PAGE FAULT
             page_faults += 1
         
             if len(memory) < frames:
