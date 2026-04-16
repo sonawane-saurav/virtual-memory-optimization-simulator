@@ -8,9 +8,7 @@ import streamlit as st
 from core.simulator import fifo, lru, optimal
 from core.metrics import compare_algorithms
 
-# Title
 st.title("Virtual Memory Optimization Simulator")
-st.write("App is running successfully")
 
 # Inputs
 page_input = st.text_input("Enter page sequence (comma separated)", "7,0,1,2,0,3,0,4")
