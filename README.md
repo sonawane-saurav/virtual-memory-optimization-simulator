@@ -34,8 +34,6 @@ The project provides an interactive interface to input page reference strings an
 
 ---
 
----
-
 ## How It Works
 
 1. The user provides:
